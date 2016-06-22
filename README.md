@@ -10,30 +10,29 @@ https://www.youtube.com/watch?v=JeO-ABq_joc
 
 # Configuración
 
-Conectar tu dispositivo de USB
+Conecta tu dispositivo de USB
 
 Navega asta esta ruta
 
 ```bash
 /usr/bin
   ```
-  
 Ejecuta el comando 
 
 ```bash
 udisksctl monitor
  ```
- ![alt tag](#)
+ ![alt tag](https://github.com/Bym24v/Lock/blob/master/img/monitor1.png)
  
-Desconecta y vuelve a conectar el dispositivo 
+Desconecta y vuelve a conectar el dispositivo usb
 
-![alt tag](#)
+![alt tag](https://github.com/Bym24v/Lock/blob/master/img/monitor2.png)
 
-Tendrás que buscar el dispositivo USB para conseguir su id
+Tendrás que buscar tu dispositivo USB para conseguir la ID
 
-Una vez que tengas el id, solo tienes que remplazarlo en el script
+Una vez que tengas el ID, solo tienes que remplazarlo en el script
 
-![alt tag](#)
+![alt tag](https://github.com/Bym24v/Lock/blob/master/img/script.png)
 
 # Ejecutar el Script
 
@@ -48,4 +47,4 @@ Si todo anda bien, debería de salirte la pantalla de iniciar sesión automátic
 si intentas hacer login y el dispositivo esta desconectado, automáticamente 
 en dos segundos saldrá la pantalla de login.
 
-Ahora bien, si el dispositivo es de vuelta otra vez conectado y intenta hacer login de nuevo, reconocerá el dispositivo usb y tendrás acceso al sistema.
+Ahora bien, si el dispositivo esta conectado y intentas hacer login de nuevo, reconocerá el dispositivo usb y tendrás acceso al sistema.
