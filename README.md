@@ -48,3 +48,6 @@ si intentas hacer login y el dispositivo esta desconectado, automáticamente
 en dos segundos saldrá la pantalla de login.
 
 Ahora bien, si el dispositivo esta conectado y intentas hacer login de nuevo, reconocerá el dispositivo usb y tendrás acceso al sistema.
+
+
+### WIP ? 
